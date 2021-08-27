@@ -18,3 +18,36 @@ body {
   color: white;
   font-family: "DM Mono", monospace;
 }
+
+.landing {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #17141d,
+    #17141d 30%,
+    #f8f8f8 30%,
+    #f8f8f8
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.landing h2 {
+  color: #17141d;
+  font-size: 8em;
+  margin: 0;
+}
+
+.landing-name {
+  padding-right: 25rem;
+}
+
+.vl {
+  border-left: 6px dashed #27242d;
+  position: absolute;
+  top: 0;
+  left: 10%;
+  height: 1000vh;
+}

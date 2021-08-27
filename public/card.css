@@ -34,7 +34,7 @@
 
   border-radius: 16px;
   background-color: var(--color-background);
-  box-shadow: -1rem 0 3rem #000;
+  box-shadow: -1rem 0 3rem rgba(0, 0, 0, 0.5);
 
   transition: 0.2s;
 }
@@ -45,6 +45,10 @@
 
 .cardWrapper:hover ~ .cardWrapper {
   transform: translateX(130px);
+}
+
+.cardWrapper:first-child {
+  margin-left: 14%;
 }
 
 .cardWrapper:not(:first-child) {
