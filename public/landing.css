@@ -29,7 +29,7 @@
   padding-left: 15rem;
 }
 
-/* .landing-square {
+.landing-square {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -84,4 +84,4 @@
   to {
     transform: scale(1);
   }
-} */
+}
