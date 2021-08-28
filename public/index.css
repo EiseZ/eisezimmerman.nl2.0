@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 
 :root {
   --color-background: #17141d;
@@ -17,31 +18,6 @@ body {
   background-color: var(--color-background);
   color: white;
   font-family: "DM Mono", monospace;
-}
-
-.landing {
-  height: 100vh;
-  background-image: linear-gradient(
-    to right,
-    #17141d,
-    #17141d 30%,
-    #f8f8f8 30%,
-    #f8f8f8
-  );
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.landing h2 {
-  color: #17141d;
-  font-size: 8em;
-  margin: 0;
-}
-
-.landing-name {
-  padding-right: 25rem;
 }
 
 .vl {

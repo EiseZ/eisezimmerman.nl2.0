@@ -1,0 +1,22 @@
+.text {
+  display: flex;
+  padding: 10rem 20% 1rem;
+  align-items: center;
+  justify-content: start;
+}
+
+.text h2 {
+  font-size: 4em;
+  background: linear-gradient(270deg, #f093b0 70%, #edca85 95%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text p {
+  font-size: 2em;
+}
+
+.text a {
+  color: white;
+}

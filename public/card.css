@@ -1,23 +1,21 @@
 .cardsList {
   display: flex;
-  padding: 3rem;
+  padding: 3rem 3rem 1rem;
   overflow-x: scroll;
 }
 
-/* .cards-list::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+.cardsList::-webkit-scrollbar {
+  height: 8px; /* width of the entire scrollbar */
 }
 
-.cards-list::-webkit-scrollbar-thumb {
-  background-color: #201c29;
-  border-radius: 10px;
-  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px -2px rgba(0, 0, 0, .25);
+.cardsList::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0); /* color of the tracking area */
 }
 
-.cards-list::-webkit-scrollbar-track {
-  background: linear-gradient(90deg, #201c29, #201c29)
-} */
+.cardsList::-webkit-scrollbar-thumb {
+  background-color: rgba(30, 30, 50, 1); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
 
 .cardWrapper {
   transition: 0.2s;
@@ -48,7 +46,7 @@
 }
 
 .cardWrapper:first-child {
-  margin-left: 14%;
+  margin-left: 18%;
 }
 
 .cardWrapper:not(:first-child) {
@@ -128,11 +126,7 @@
 }
 
 .card:hover .card-header h2 {
-  background: linear-gradient(
-    90deg,
-    var(--color-accent-1),
-    var(--color-accent-2)
-  );
+  background: linear-gradient(270deg, #f093b0 70%, #edca85 95%);
   text-shadow: none;
   background-clip: text;
   -webkit-background-clip: text;
