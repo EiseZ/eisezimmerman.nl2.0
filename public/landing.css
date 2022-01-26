@@ -1,87 +1,88 @@
 .landing {
-  height: 100vh;
-  background-image: linear-gradient(
-    to right,
-    #17141d,
-    #17141d 30%,
-    #f8f8f8 30%,
-    #f8f8f8
-  );
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  font-family: "Arvo";
+    height: 100vh;
+    background-image: linear-gradient(
+        to right,
+        #17141d,
+        #17141d 30%,
+        #f8f8f8 30%,
+        #f8f8f8
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "Arvo";
 }
 
 .landing h2 {
-  color: #17141d;
-  font-size: 8em;
-  margin: 0;
+    color: #17141d;
+    font-size: 8em;
+    margin: 0;
 }
 
 .landing-name {
-  padding-right: 20rem;
+    padding-right: 20rem;
 }
 
 .landing-surname {
-  padding-left: 15rem;
+    padding-left: 15rem;
+    text-decoration: underline;
 }
 
 .landing-square {
-  position: absolute;
-  height: 100px;
-  width: 100px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
 
-  border-radius: 20px;
+    border-radius: 20px;
 }
 
 .landing-square-1 {
-  background-image: linear-gradient(#da85b5, #b096f0);
-  right: 40%;
-  top: 75%;
+    background-image: linear-gradient(#da85b5, #b096f0);
+    right: 40%;
+    top: 75%;
 
-  transform: scale(0);
-  animation-name: popin;
-  animation-duration: 0.3s;
-  animation-fill-mode: forwards;
+    transform: scale(0);
+    animation-name: popin;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
 }
 
 .landing-square-2 {
-  background-image: linear-gradient(
-    var(--color-accent-1),
-    var(--color-accent-2)
-  );
-  right: 40%;
-  top: 75%;
-  right: 25%;
-  top: 35%;
+    background-image: linear-gradient(
+        var(--color-accent-1),
+        var(--color-accent-2)
+    );
+    right: 40%;
+    top: 75%;
+    right: 25%;
+    top: 35%;
 
-  transform: scale(0);
-  animation-name: popin;
-  animation-duration: 0.3s;
-  animation-delay: 1.2s;
-  animation-fill-mode: forwards;
+    transform: scale(0);
+    animation-name: popin;
+    animation-duration: 0.3s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
 }
 
 .landing-square-3 {
-  background-image: linear-gradient(#af97f2, #a0e8fe);
-  right: 50%;
-  top: 15%;
+    background-image: linear-gradient(#af97f2, #a0e8fe);
+    right: 50%;
+    top: 15%;
 
-  transform: scale(0);
-  animation-name: popin;
-  animation-duration: 0.3s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
+    transform: scale(0);
+    animation-name: popin;
+    animation-duration: 0.3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes popin {
-  from {
-    transform: scale(0);
-  }
-  to {
-    transform: scale(1);
-  }
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
 }
