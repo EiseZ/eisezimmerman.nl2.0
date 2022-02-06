@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="landing.css" />
         <link rel="stylesheet" href="text.css" />
         <link rel="stylesheet" href="card.css" />
+        <link rel="stylesheet" href="responsive.css" />
 
         <script defer>
             function getAge() {
@@ -22,12 +23,6 @@
             }
 
             function main() {
-                if (
-                    document.getElementsByTagName("html")[0].clientWidth < 1850
-                ) {
-                    document.getElementById("body").innerHTML =
-                        "This page is only viewable on pc :(";
-                }
                 document.getElementById("vl").style.height =
                     document.getElementById("body").clientHeight + "px";
                 document.getElementById("age").innerHTML = getAge();

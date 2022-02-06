@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1700px) {
+    .landing-square-1 {
+        display: none;
+    }
+    .landing-square-2 {
+        display: none;
+    }
+    .landing-square-3 {
+        display: none;
+    }
+    .landing {
+        background-image: none;
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .landing-name {
+        padding-right: 0;
+    }
+
+    .landing-surname {
+        padding-left: 0;
+        text-decoration: underline;
+    }
+
+    .landing h2 {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .vl {
+        display: none;
+    }
+
+    .text {
+        padding: 10rem 5% 1rem;
+    }
+
+    .cardWrapper:first-child {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .landing h2 {
+        font-size: 3em;
+    }
+
+    .text h2 {
+        font-size: 2em;
+    }
+
+    .text p {
+        font-size: 1.5em;
+    }
+}
